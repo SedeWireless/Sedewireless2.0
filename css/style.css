@@ -1,0 +1,118 @@
+/* space */
+
+body { 
+  margin: 0; 
+  position:relative;
+  }
+
+header , main , footer {
+  padding: 3% 5% 2% 5%;
+  text-align: center;  
+  }
+
+nav {
+  padding-top: 2em;
+  height: 3em; 
+  text-align: center;
+}
+
+nav ul li {
+ height:40%;
+ width: auto;
+ list-style-type: none;
+ display: inline-block;
+ margin-right: 0.8em;
+ padding: 0 2em; 
+ border-style: none; 
+ }
+
+.main_section {
+  padding: 5% 0px; 
+  text-align: center;
+  }
+
+#no_border {
+  border: none;
+  }
+.block_3 {
+    width: 30%;
+    height: 40%;
+    max-width: 30%; min-width: 30%;
+    display: inline-block; 
+  }
+
+.block_4 { 
+  margin:0.5%;
+  display: inline-block;
+  padding: 0 1em;
+  width: 20%;
+  height: 20%;
+  }
+.content {
+  margin:3em;
+  }
+#intestazione {
+  margin:none; 
+  padding-bottom:0.5%; 
+  padding-left: 0%; 
+  padding-right: 0%; 
+  background-size: auto; 
+  height: auto;
+  max-width: 100%; 
+  text-align: center; 
+  }
+
+
+/* colors and font */
+
+body {
+  color: #222211;
+  background-color: #fff5b3;
+  font-size: 1.1em;
+  line-height: 1.5em; text-align: center;
+  }
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 1.5em;
+  background-color: #339933;
+}
+h1 ,  h2  { color:#339933; }
+
+h3 { color:#ffbf00; }
+
+b { color: #339933; }
+
+button {
+  background-color:#FFF256;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  font-size: 1.1em;
+  letter-spacing: 0.02em;
+}
+
+.polaroid {
+  width: 20%; 
+  height: 30%; 
+  max-height: 30%; 
+  max-width: 25%; 
+  display: inline-table; 
+  margin: 3%; 
+  }
+.block_4 {
+  font-size: 1rem;
+  }
+#banchmarketing {text-align: left;}
+
+/*link*/
+a:link , a:visited {
+  text-decoration: none; 
+  color:#fff5b3; 
+  }
+a:hover , a:active {
+  text-decoration: none; 
+  color: white;
+ }
