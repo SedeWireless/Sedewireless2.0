@@ -27,14 +27,31 @@ nav ul li {
  border-style: none; 
  }
 
-.main_section {
-  padding: 5% 0px; 
-  text-align: center;
+
+
+
+
+#intestazione {
+  margin:none; 
+  padding-bottom:0.5%; 
+  padding-left: 0%; 
+  padding-right: 0%; 
+  background-size: auto; 
+  height: auto;
+  max-width: 100%; 
+  text-align: center; 
   }
 
-#no_border {
-  border: none;
-  }
+#introduzione {text-align: center; margin-top: 3%;}
+
+#struttura , #layout , #banchmarketing , #comunication , .paragrafi  {text-align: left; margin-left: 2%; }   
+
+.main_section { border: none;
+  padding: 5% 0px; 
+  display: inline-block;
+  text-align: center;
+  }  
+
 .block_3 {
     width: 30%;
     height: 40%;
@@ -49,19 +66,20 @@ nav ul li {
   width: 20%;
   height: 20%;
   }
+
 .content {
   margin:3em;
   }
-#intestazione {
-  margin:none; 
-  padding-bottom:0.5%; 
-  padding-left: 0%; 
-  padding-right: 0%; 
-  background-size: auto; 
-  height: auto;
-  max-width: 100%; 
-  text-align: center; 
-  }
+
+.polaroid {
+  width: 20%; 
+  height: 30%; 
+  max-height: 30%; 
+  max-width: 25%; 
+  display: inline-table; 
+  margin: 3%; 
+  }  
+
 
 
 /* colors and font sfondo:#fff5b3 menù:#339933*/
@@ -106,20 +124,12 @@ button {
   font-size: 1.1em;
   letter-spacing: 0.02em;
 }
+ 
 
-.polaroid {
-  width: 20%; 
-  height: 30%; 
-  max-height: 30%; 
-  max-width: 25%; 
-  display: inline-table; 
-  margin: 3%; 
-  }
 .block_4 {
   font-size: 1rem;
   }
-#banchmarketing {text-align: left;}
-
+ 
 /*link*/
 a:link , a:visited {
   text-decoration: none; 
