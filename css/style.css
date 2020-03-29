@@ -27,10 +27,6 @@ nav ul li {
  border-style: none; 
  }
 
-
-
-
-
 #intestazione {
   margin:none; 
   padding-bottom:0.5%; 
@@ -45,7 +41,7 @@ nav ul li {
 #introduzione {text-align: center; margin-top: 3%;}
 
 #struttura , #layout , #banchmarketing , #comunication , .paragrafi  {text-align: left; margin-left: 2%; }   
-
+#layout {display: inline-table; } 
 .main_section { border: none;
   padding: 5% 0px; 
   display: inline-block;
