@@ -40,9 +40,7 @@ nav ul li {
 
 #introduzione {text-align: center; margin-top: 3%;}
 
-#struttura , #layout , #banchmarketing , #comunication , .paragrafi  {text-align: left; margin-left: 2%; }   
-
-#layout {display: inline-block; } 
+#struttura , #leggianche , #layout , #banchmarketing , #comunication , .paragrafi  {text-align: left; margin-left: 2%; }   
 
 .main_section { border: none;
   padding: 5% 0px; 
@@ -97,13 +95,14 @@ nav ul li a {
   padding: 0 1.5em;
   background-color:#fdc41c ;
   }
-h1 { 
+h1 , h2  { 
   font-family: 'Paprika', cursive;
   color:#00264d; 
   }
-h3 {
-  font-family: 'Paprika', cursive;
-  color:#fdc41c;}
+
+h3 {font-family: 'Paprika', cursive;
+  color:#fdc41c;
+ }
 
 b {
   color: #339933;
