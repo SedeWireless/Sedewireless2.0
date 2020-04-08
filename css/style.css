@@ -75,11 +75,16 @@ nav ul li {
   display: inline-table; 
   margin: 3%; 
   }  
+.presentazione1 { border-width: 50px; border-height: 100px; margin-left: -50%; margin-top: 3%; margin-right: 1%; margin-bottom: 5%; width: 20%; max-width: 20%; }
+.presentazione2 {border-width: 50px; border-height:100px; margin-left: 2rem; margin-top:3%; margin-right:2%; margin-bottom:2%; width:20%; max-width: 20%;}
+.presentazione1 , .presentazione2 {display:inline-block;}
+.leggianche {margin-top: 3%;}
+#articolo2in1 { margin-left: -50%; margin-top: 3%; margin-right: 1%; margin-bottom: 5%; width: 20%; max-width: 20%;}
+#articolo3in1 { margin-left: 2rem; margin-top:3%; margin-right:2%; margin-bottom:2%; width:20%; max-width: 20%;}
 
 
 
 /* colors and font sfondo:#fff5b3 menù:#339933*/
-
 body {
   color: #00264d;
   background-color: #F8F8F8;
