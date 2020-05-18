@@ -100,12 +100,12 @@ nav ul li a {
   padding: 0 1.5em;
   background-color:#fdc41c ;
   }
-h1 , h2  { 
+h1 , h2 , h3 { 
   font-family: 'Paprika', cursive;
   color:#00264d; 
   }
 
-h3 {font-family: 'Paprika', cursive;
+h4 {font-family: 'Paprika', cursive;
   color:#fdc41c;
  }
 
@@ -127,7 +127,17 @@ button {
   letter-spacing: 0.02em;
 }
  
-
+.citazione {
+  color: #00264d;
+  text-decoration: none;
+  padding: 0 1.5em;
+  background-color: #ffff48 ;
+  text-align: center;
+  margin: 2%;
+  padding: none;
+  
+  border-color:#fdc41c ; 
+  font-size: 1.2rem;}
 .block_4 {
   font-size: 1rem;
   }
