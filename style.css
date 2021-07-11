@@ -5,6 +5,7 @@ body {
   position:relative;
   }
 
+h1 { text-color: orange; color: orange; text-align:center; }
 header, main , footer {
   padding: 3% 5% 2% 5%;
   text-align: center;  
