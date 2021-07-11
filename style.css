@@ -1,0 +1,26 @@
+
+
+body { 
+  margin: 0; 
+  position:relative;
+  }
+
+header, main , footer {
+  padding: 3% 5% 2% 5%;
+  text-align: center;  
+  }
+
+.content {
+  margin:3em;
+  }
+.polaroid {
+  width: 20%; 
+  height: 30%; 
+  max-height: 30%; 
+  max-width: 25%; 
+  display: inline-table; 
+  margin: 3%; 
+  list-style-image: inline-table;}  
+
+  img  {
+    display: inline-table; }
